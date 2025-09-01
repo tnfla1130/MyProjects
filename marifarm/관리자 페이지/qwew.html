@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>채팅 UI 예제</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://unpkg.com/react@18/umd/react.development.js"></script>
+  <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+  <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+</head>
+<body class="h-screen m-0 p-0">
+  <div id="root" class="h-screen"></div>
+
+  <script type="text/babel">
+    const { useState } = React;
+
+    function ChatUI() {
+      const [messages, setMessages] = useState([]);
+      const [input, setInput] = useState("");
+
+      const sendMessage = () => {
+        if (!input.trim()) return;
+        setMessages([...messages, { text: input, sender: "user" }]);
+        setInput("");
+      };
+
+      return (
+        <div className="flex flex-col h-screen bg-gray-100 p-4">
+          {/* 메시지 리스트 */}
+          <div className="flex-1 overflow-y-auto mb-4 space-y-2">
+            {messages.map((msg, idx) => (
+              <div
+                key={idx}
+                className={`p-2 rounded-lg max-w-xs ${
+                  msg.sender === "user"
+                    ? "bg-blue-500 text-white ml-auto"
+                    : "bg-gray-300 text-black"
+                }`}
+              >
+                {msg.text}
+              </div>
+            ))}
+          </div>
+
+          {/* 입력창 */}
+          <div className="flex">
+            <input
+              type="text"
+              value={input}
+              onChange={(e) => setInput(e.target.value)}
+              onKeyDown={(e) => e.key === "Enter" && sendMessage()}
+              className="flex-1 border rounded-l-lg p-2 focus:outline-none"
+              placeholder="메시지를 입력하세요..."
+            />
+            <button
+              onClick={sendMessage}
+              className="bg-blue-500 text-white px-4 rounded-r-lg hover:bg-blue-600"
+            >
+              전송
+            </button>
+          </div>
+        </div>
+      );
+    }
+
+    ReactDOM.createRoot(document.getElementById("root")).render(<ChatUI />);
+  </script>
+</body>
+</html>
