@@ -62,8 +62,8 @@
 >
 > - 개발기간 : 2025.06.12 - 06.19
 > - 핵심 역할 : 부팀장. 시계열 예측 모델 학습 및 실시간 그래프 구현
-> - Language : python3, javascript
-> - Skill : flask, tensorflow, pandas, matplotlib, html, css 
+>> - Language : python3, javascript
+>> - Skill : flask, tensorflow, pandas, matplotlib, html, css 
 >
 >> 프로젝트 상세 설명
 >> 1. LSTM 기반 시계열 예측 모델을 설계·학습하여 풍속, 유속, 조위, 기압 등의 변화를 분석했습니다
