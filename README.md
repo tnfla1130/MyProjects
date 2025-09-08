@@ -78,8 +78,8 @@
 >
 > - 개발기간 : 2025.07.23 - 08.27
 > - 핵심 역할 : 부팀장. resnet18 모델 학습 및 Ai 서비스 3가지 구현. 지도 및 채팅 기능 구현. 웹 프론트 
-- Language : Java, Python3, JavaScript
-- Skill : SpringBoot, Flask, OracleDB, JSP, MyBatis, HTML5, CSS3, Kakao Map API
+>> - Language : Java, Python3, JavaScript
+>> - Skill : SpringBoot, Flask, OracleDB, JSP, MyBatis, HTML5, CSS3, Kakao Map API
 >
 >> 프로젝트 상세 설명
 >> 1. AI 식물 추천 서비스, 병해충 이미지 진단(ResNet18 전이학습), 최적 환경 안내 등 3가지 AI 기능을 구현했습니다.
