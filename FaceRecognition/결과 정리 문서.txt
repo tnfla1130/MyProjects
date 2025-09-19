@@ -1,0 +1,140 @@
+O.ver
+
+Epoch 1; Loss: 1.2170
+Epoch 2; Loss: 1.0515
+Epoch 3; Loss: 1.0269
+Epoch 4; Loss: 1.0083
+Epoch 5; Loss: 1.0010
+Epoch 6; Loss: 0.9919
+Epoch 7; Loss: 0.9826
+Epoch 8; Loss: 0.9814
+Epoch 9; Loss: 0.9786
+Epoch 10; Test Accuracy: 95.6571%
+Epoch 10; Loss: 0.9765
+Epoch 11; Loss: 0.9717
+Epoch 12; Loss: 0.9640
+Epoch 13; Loss: 0.9704
+Epoch 14; Loss: 0.9643
+Epoch 15; Loss: 0.9678
+Epoch 16; Loss: 0.9633
+Epoch 17; Loss: 0.9607
+Epoch 18; Loss: 0.9598
+Epoch 19; Loss: 0.9609
+Epoch 20; Test Accuracy: 96.7714%
+Epoch 20; Loss: 0.9579
+Epoch 21; Loss: 0.9614
+Epoch 22; Loss: 0.9583
+Epoch 23; Loss: 0.9554
+Epoch 24; Loss: 0.9536
+Epoch 25; Loss: 0.9567
+Epoch 26; Loss: 0.9537
+Epoch 27; Loss: 0.9523
+Epoch 28; Loss: 0.9495
+Epoch 29; Loss: 0.9491
+Epoch 30; Test Accuracy: 97.0000%
+Epoch 30; Loss: 0.9497
+time: 575.3123874664307
+
+Final Test Accuracy: 97.8667%,  Final Errors: 4
+전체 데이터셋 Accuracy: 0.9980
+전체 데이터셋 Precision: 0.9980
+전체 데이터셋 Confusion Matrix:
+[[291   0   0   0   0]
+ [  0 287   0   0   0]
+ [  0   0 284   0   0]
+ [  1   0   0 294   0]
+ [  2   0   0   0 313]]
+
+L.ver
+Epoch 1; Loss: 1.3562
+Epoch 2; Loss: 1.2379
+Epoch 3; Loss: 1.1804
+Epoch 4; Loss: 1.1443
+Epoch 5; Loss: 1.1280
+Epoch 6; Loss: 1.0963
+Epoch 7; Loss: 1.0933
+Epoch 8; Loss: 1.0823
+Epoch 9; Loss: 1.0630
+Epoch 10; Test Accuracy: 87.9143%
+Epoch 10; Loss: 1.0551
+Epoch 11; Loss: 1.0469
+Epoch 12; Loss: 1.0460
+Epoch 13; Loss: 1.0361
+Epoch 14; Loss: 1.0338
+Epoch 15; Loss: 1.0303
+Epoch 16; Loss: 1.0312
+Epoch 17; Loss: 1.0231
+Epoch 18; Loss: 1.0166
+Epoch 19; Loss: 1.0158
+Epoch 20; Test Accuracy: 90.7714%
+Epoch 20; Loss: 1.0136
+Epoch 21; Loss: 1.0014
+Epoch 22; Loss: 1.0082
+Epoch 23; Loss: 1.0052
+Epoch 24; Loss: 0.9971
+Epoch 25; Loss: 0.9979
+Epoch 26; Loss: 1.0002
+Epoch 27; Loss: 0.9930
+Epoch 28; Loss: 0.9946
+Epoch 29; Loss: 0.9953
+Epoch 30; Test Accuracy: 92.2286%
+Epoch 30; Loss: 0.9937
+time: 294.22519516944885
+
+Final Test Accuracy: 91.2000%,  Final Errors: 104
+
+전체 데이터셋 Accuracy: 0.9287
+전체 데이터셋 Precision: 0.9287
+전체 데이터셋 Confusion Matrix:
+[[275   0   0   0   0]
+ [ 18 267   0   2   1]
+ [ 13   0 291   0   0]
+ [ 26   0   1 273   0]
+ [ 41   1   2   0 261]]
+
+P.ver
+Epoch 1; Loss: 1.1688
+Epoch 2; Loss: 1.0200
+Epoch 3; Loss: 0.9989
+Epoch 4; Loss: 0.9890
+Epoch 5; Loss: 0.9831
+Epoch 6; Loss: 0.9761
+Epoch 7; Loss: 0.9743
+Epoch 8; Loss: 0.9662
+Epoch 9; Loss: 0.9633
+Epoch 10; Test Accuracy: 96.2500%
+Epoch 10; Loss: 0.9643
+Epoch 11; Loss: 0.9597
+Epoch 12; Loss: 0.9587
+Epoch 13; Loss: 0.9601
+Epoch 14; Loss: 0.9535
+Epoch 15; Loss: 0.9559
+Epoch 16; Loss: 0.9540
+Epoch 17; Loss: 0.9531
+Epoch 18; Loss: 0.9515
+Epoch 19; Loss: 0.9515
+Epoch 20; Test Accuracy: 96.6000%
+Epoch 20; Loss: 0.9511
+Epoch 21; Loss: 0.9473
+Epoch 22; Loss: 0.9489
+Epoch 23; Loss: 0.9503
+Epoch 24; Loss: 0.9466
+Epoch 25; Loss: 0.9434
+Epoch 26; Loss: 0.9454
+Epoch 27; Loss: 0.9448
+Epoch 28; Loss: 0.9423
+Epoch 29; Loss: 0.9454
+Epoch 30; Test Accuracy: 96.6250%
+Epoch 30; Loss: 0.9460
+time: 341.47647047042847
+
+Final Test Accuracy: 99.0000%,  Final Errors: 2
+
+전체 데이터셋 Accuracy: 0.9980
+전체 데이터셋 Precision: 0.9980
+전체 데이터셋 Confusion Matrix:
+[[204   0   0   0   0]
+ [  0 213   0   0   0]
+ [  1   0 207   0   0]
+ [  0   0   0 181   0]
+ [  1   0   0   0 185]]

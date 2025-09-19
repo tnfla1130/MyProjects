@@ -9,32 +9,45 @@ from gym.utils.play import play
 pygame.display.init()
 pygame.joystick.init()
 
-joystick = pygame.joystick.Joystick(0)
-joystick.init()
+# ===== 안전 래퍼 함수 =====
+def btn(joystick, idx: int) -> bool:
+    return (joystick is not None) and joystick.get_button(idx)
 
-try:
-    jid = joystick.get_instance_id()
-except AttributeError:
-    jid = joystick.get_id()
-    
-try:
-    guid = joystick.get_guid()
-except AttributeError:
-    pass
+# ===== 조이스틱 존재 확인 & 초기화 =====
+joystick = None
+key_setting = 0  # 0=조이스틱, 1=키보드 (조이스틱 없으면 아래에서 1로 바뀜)
 
-image_start = cv2.imread('C:/Users/soolim/Desktop/coding/LAB/atari/image/game_start.jpg')
-image_system = cv2.imread('C:/Users/soolim/Desktop/coding/LAB/atari/image/game_system.jpg')
-image_system_ = cv2.imread('C:/Users/soolim/Desktop/coding/LAB/atari/image/game_system2.jpg')
-image_quit = cv2.imread('C:/Users/soolim/Desktop/coding/LAB/atari/image/game_quit.jpg')
-image_list1 = cv2.imread('C:/Users/soolim/Desktop/coding/LAB/atari/image/list_riverriad.jpg')
-image_list2 = cv2.imread('C:/Users/soolim/Desktop/coding/LAB/atari/image/list_alien.jpg')
-image_list3 = cv2.imread('C:/Users/soolim/Desktop/coding/LAB/atari/image/list_Berzerk.jpg')
-image_list4 = cv2.imread('C:/Users/soolim/Desktop/coding/LAB/atari/image/list_Frostbite.jpg')
-tanker = cv2.imread('C:/Users/soolim/Desktop/coding/LAB/atari/image/score.png',cv2.IMREAD_UNCHANGED)
-helicopter = cv2.imread('C:/Users/soolim/Desktop/coding/LAB/atari/image/Helicopter.png',cv2.IMREAD_UNCHANGED)
-fuel = cv2.imread('C:/Users/soolim/Desktop/coding/LAB/atari/image/fuel.png',cv2.IMREAD_UNCHANGED)
-jet = cv2.imread('C:/Users/soolim/Desktop/coding/LAB/atari/image/jet.png',cv2.IMREAD_UNCHANGED)
-bridge = cv2.imread('C:/Users/soolim/Desktop/coding/LAB/atari/image/bridge.png',cv2.IMREAD_UNCHANGED)
+if pygame.joystick.get_count() > 0:
+    joystick = pygame.joystick.Joystick(0)
+    joystick.init()
+    try:
+        jid = joystick.get_instance_id()
+    except AttributeError:
+        jid = joystick.get_id()
+    try:
+        guid = joystick.get_guid()
+    except AttributeError:
+        guid = None
+    print(f"조이스틱 연결됨: jid={jid}, guid={guid}")
+else:
+    joystick = None
+    key_setting = 1  # 키보드 모드로 자동 전환
+    print("⚠️ 조이스틱이 없어 키보드 모드로 실행합니다.")
+
+
+image_start = cv2.imread('c:/02WorkSpace/MyProject/atariGame/image/game_start.jpg')
+image_system = cv2.imread('c:/02WorkSpace/MyProject/atariGame/image/game_system.jpg')
+image_system_ = cv2.imread('c:/02WorkSpace/MyProject/atariGame/image/game_system2.jpg')
+image_quit = cv2.imread('c:/02WorkSpace/MyProject/atariGame/image/game_quit.jpg')
+image_list1 = cv2.imread('c:/02WorkSpace/MyProject/atariGame/image/list_riverriad.jpg')
+image_list2 = cv2.imread('c:/02WorkSpace/MyProject/atariGame/image/list_alien.jpg')
+image_list3 = cv2.imread('c:/02WorkSpace/MyProject/atariGame/image/list_Berzerk.jpg')
+image_list4 = cv2.imread('c:/02WorkSpace/MyProject/atariGame/image/list_Frostbite.jpg')
+tanker = cv2.imread('c:/02WorkSpace/MyProject/atariGame/image/score.png',cv2.IMREAD_UNCHANGED)
+helicopter = cv2.imread('c:/02WorkSpace/MyProject/atariGame/image/Helicopter.png',cv2.IMREAD_UNCHANGED)
+fuel = cv2.imread('c:/02WorkSpace/MyProject/atariGame/image/fuel.png',cv2.IMREAD_UNCHANGED)
+jet = cv2.imread('c:/02WorkSpace/MyProject/atariGame/image/jet.png',cv2.IMREAD_UNCHANGED)
+bridge = cv2.imread('c:/02WorkSpace/MyProject/atariGame/image/bridge.png',cv2.IMREAD_UNCHANGED)
 
 
 # start = 0, system = 1, quit =2 
@@ -139,10 +152,6 @@ while True:
                     mapping = {(pygame.K_SPACE,): 1,(pygame.K_LEFT,): 4, (pygame.K_RIGHT,): 3}
                     play(gym.make("Frostbite-v4"), keys_to_action=mapping,zoom=3)
 
-            
-
-            
-                    
 
         elif current_main == 2:
             if joystick.get_button(1):
