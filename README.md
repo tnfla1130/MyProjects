@@ -87,7 +87,7 @@
 >> 2. 실시간 데이터 시각화 대시보드를 구축하여 풍속, 조위, 유속, 해수면 높이 변화를 직관적으로 모니터링할 수 있도록 구현했습니다.
 >> 3. 팀 프로젝트에서 시계열 모델 학습과 실시간 그래프 구현을 담당하며, 어업 종사자의 안전한 출항 여부 판단을 지원하는 시스템 개발에 기여했습니다.
 >
->> [프로젝트 PPT](https://drive.google.com/file/d/1QuWxg1ZF3oiTHVU9Cs058oUakZpUe_If/view?usp=sharing)
+>> [프로젝트 PPT](https://drive.google.com/file/d/1x6frPBHeeYRn8xf3UgW75zMLdDGAHDPu/view?usp=sharing)
 <br />
 
 ## 5. 🪴marifarm
@@ -105,7 +105,7 @@
 >> 3. 실시간 채팅 기능을 추가하여 사용자 간 원활한 커뮤니케이션과 거래 협의를 지원했습니다.
 >> 4. 프론트엔드와 백엔드 연동을 통해 AI 모델과 실시간 서비스 기능을 통합하는 역할을 담당했습니다.
 >
->> [프로젝트 PPT](https://drive.google.com/file/d/1QuWxg1ZF3oiTHVU9Cs058oUakZpUe_If/view?usp=sharing)
+>> [프로젝트 PPT](https://drive.google.com/file/d/11U3Ca5L3dR7XlFbd2A1oVrioBkQCzJPg/view?usp=sharing)
 
 <br />
 <br />
