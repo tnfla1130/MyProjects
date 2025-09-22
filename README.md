@@ -1,8 +1,5 @@
 # 📜 김수림 포트폴리오
 
-> 김수림(Soolim Kim) - kimphysicsman 포트폴리오
-
-<br />
 
 # 👋 Intro
 
