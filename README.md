@@ -112,6 +112,7 @@
 
 # 📞 Contact
 
+> 저에 대한 더 자세한 내용은 <a href="https://www.notion.so/2761aeae3bb98043ba5bd21988871207?pvs=48&qid=&origin="> <img src="https://img.shields.io/badge/-Profile-8AC926?style=for-the-badge" height="20px" style="margin-bottom: -5px" /> </a>이곳을 통해 확인 하실 수 있습니다!
 - 이메일 : ksr113030@gmail.com
 - 깃허브 : <a href="https://github.com/tnfla1130">
   <img src="https://user-images.githubusercontent.com/68724828/185908612-22f4d219-78a7-4de7-bb02-deecaa63bffa.png" height="28px" style="margin-top: 10px" />
