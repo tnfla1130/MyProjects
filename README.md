@@ -1,6 +1,23 @@
 # 📜 김수림 포트폴리오
 
 ---
+# 🚀 About Me
+
+> **AI와 백엔드를 융합하여 실질적인 서비스를 구현하는 개발자 김수림입니다.**  
+> AI정보공학과 전공을 통해 **딥러닝 모델의 구조와 원리**를 익혔고,  
+> 국비지원 과정을 통해 **Spring Boot·Flask 기반 백엔드 개발과 데이터 연동 기술**을 습득했습니다.  
+>  
+> 단순히 모델을 만드는 것을 넘어, **AI 결과를 실제 서비스에 통합하고 사용자에게 전달하는 과정**에 집중해왔습니다.  
+>  
+> 💡 *제가 지향하는 개발자는 문제를 “코드”로만 해결하지 않고, “구조와 흐름”으로 이해하는 사람입니다.*  
+>  
+> 주요 역량:
+> - 🧠 **AI Modeling:** CNN·ResNet18·LSTM 기반 모델 설계 및 최적화  
+> - ⚙️ **Back-End:** Spring Boot, Flask, OracleDB, MyBatis, REST API 설계  
+> - 🧩 **Full-Stack Integration:** AI 모델과 웹서비스 실시간 연동 (Flask ↔ Spring, fetch API)  
+> - 🗺️ **Visualization & Service:** Kakao Map API, 실시간 그래프 대시보드 구현  
+> - 🤝 **Collaboration:** Git을 통한 버전 관리 및 팀 단위 프로젝트 리드 경험  
+---
 
 # 👋 Intro
 
