@@ -11,21 +11,24 @@
 >  
 > 💡 *제가 지향하는 개발자는 문제를 “코드”로만 해결하지 않고, “구조와 흐름”으로 이해하는 사람입니다.*  
 >  
-> 주요 역량:
-> - 🧠 **AI Modeling:** CNN·ResNet18·LSTM 기반 모델 설계 및 최적화  
-> - ⚙️ **Back-End:** Spring Boot, Flask, OracleDB, MyBatis, REST API 설계  
-> - 🧩 **Full-Stack Integration:** AI 모델과 웹서비스 실시간 연동 (Flask ↔ Spring, fetch API)  
-> - 🗺️ **Visualization & Service:** Kakao Map API, 실시간 그래프 대시보드 구현  
-> - 🤝 **Collaboration:** Git을 통한 버전 관리 및 팀 단위 프로젝트 리드 경험  
----
-
-# 👋 Intro
-
-> 안녕하세요! **끊임없이 배우고 도전하는 개발자 김수림**입니다.  
-> **AI정보공학과** 전공을 바탕으로 AI 모델링과 데이터 처리 역량을 쌓았고,  
-> 국비지원 과정을 통해 **Spring Boot, Flask, Oracle, MyBatis** 등  
-> 실무 중심의 백엔드 기술을 심화 학습했습니다.  
-> 프로젝트에서는 항상 **“왜 이렇게 작동하는가”를 이해하며 구현하는 개발자**를 목표로 했습니다.
+> 💡 **주요 역량 (Core Skills)**  
+> 
+> **🧠 AI / Data Science**  
+> - TensorFlow, PyTorch 기반 모델 설계 및 최적화 (CNN, ResNet18, LSTM 등)  
+> - OpenCV, Pandas, Matplotlib을 활용한 데이터 전처리 및 시각화  
+> 
+> **⚙️ Back-End Development**  
+> - Spring Boot, Flask 기반 설계 및 서버 구축  
+> - MyBatis, JDBC를 활용한 DB 연동 및 CRUD 구현  
+> - Oracle, MySQL 기반 데이터베이스 설계 및 쿼리 최적화  
+> 
+> **💻 Front-End & Integration**  
+> - JavaScript, HTML5, CSS3, React 활용한 웹 UI 구성  
+> - `fetch()` 기반 비동기 통신으로 프론트–백엔드 데이터 연동  
+> 
+> **🧩 Tooling & DevOps**  
+> - Git을 통한 버전 관리 및 협업 환경 구축  
+> 
 
 ---
 
